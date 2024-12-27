@@ -6,7 +6,7 @@ import { Picker } from '@react-native-picker/picker';
 const App = () => {
   const [country, setcountry] = useState('England');
   return (
-    <SafeAreaView style={styles.apptStyle}>
+    <SafeAreaView style={styles.appStyle}>
       <Text > Country of Residence React Native Picker Element </Text>
       <View>
         <Text nativeID="pickerLabel"> Select your country of residence: </Text>
@@ -28,7 +28,7 @@ const App = () => {
   );
 };
 const styles = StyleSheet.create({
-  apptStyle: {
+  appStyle: {
     margin: 8
   },
   pickerStyle: {
